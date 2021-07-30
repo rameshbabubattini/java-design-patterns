@@ -1,6 +1,6 @@
-package com.java.designpatterns;
+package com.java.designpatterns.creational;
 
-import com.java.designpatterns.LunchOrder.LunchOrderBuilder;
+import com.java.designpatterns.creational.LunchOrder.LunchOrderBuilder;
 
 public class BuilderPattern {
 
