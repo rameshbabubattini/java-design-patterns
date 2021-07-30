@@ -17,7 +17,7 @@ public class SingletonPattern {
 }
 
 class DBConnection {
-	private static DBConnection connection = null;
+	private static volatile DBConnection connection = null;
 
 	private DBConnection() {
 		if (connection != null) {
